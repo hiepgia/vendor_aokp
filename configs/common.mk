@@ -2,6 +2,7 @@
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
 PRODUCT_PACKAGES += \
+    Music \
     MusicFX \
     MusicVisualization \
     NoiseField \
@@ -11,7 +12,8 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     openvpn \
     FileExplorer \
-    Trebuchet
+    Trebuchet \
+    TweakGS2
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
