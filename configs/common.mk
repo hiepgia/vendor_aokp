@@ -16,7 +16,8 @@ PRODUCT_PACKAGES += \
     openvpn \
     FileExplorer \
     Trebuchet \
-    TweakGS2
+    TweakGS2 \
+    SwagPapers
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -91,3 +92,7 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 
 # Inherit common build.prop overrides
 -include vendor/aokp/configs/common_versions.mk
+
+# Camera shutter sound property
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.sys.camera-sound=1

@@ -5,7 +5,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76I BUILD_VERSION_TAGS=relea
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=teamhydra \
     ro.aokp.version=HyDrOG3N-ICS-$(shell date +"%Y%m%d")-$(PRODUCT_RELEASE_NAME)
-
-# Camera shutter sound property
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.camera-sound=1
